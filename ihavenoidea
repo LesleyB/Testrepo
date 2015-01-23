@@ -1,11 +1,12 @@
-I have no idea
+== I really have no idea ==
+
 I do checkout remotes/origin/NewBranch1 and get a deatched HEAD state ...
 I do checkout NewBranch1 and get 
 Branch NewBranch1 set up to track remote branch NewBranch1 from origin.
 Switched to a new branch 'NewBranch1'
 I so not sure what's what here ...
 
-git checkout remotes/origin/NewBranch1
+== git checkout remotes/origin/NewBranch1 ==
 Note: checking out 'remotes/origin/NewBranch1'.
 
 You are in 'detached HEAD' state. You can look around, make experimental
@@ -20,6 +21,10 @@ do so (now or later) by using -b with the checkout command again. Example:
 HEAD is now at 3e3a6f5... Merge branch 'master' of https://github.com/LesleyB/Testrepo
 
 
-git checkout NewBranch1
+== git checkout NewBranch1 ==
 Branch NewBranch1 set up to track remote branch NewBranch1 from origin.
 Switched to a new branch 'NewBranch1'
+
+
+== Maybe I start all over again ==
+
