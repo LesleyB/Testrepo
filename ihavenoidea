@@ -28,3 +28,24 @@ Switched to a new branch 'NewBranch1'
 
 == Maybe I start all over again ==
 
+1. Remove all the previous working directories - 
+2. use 
+    git clone https://github.com/LesleyB/Testrepo.git 
+   to get a local copy of the github repo Test repos
+3. do 
+    git checkout NewBranch1
+   followed by  
+    git branch -a
+    * NewBranch1
+      master
+	  remotes/origin/HEAD -> origin/master
+	  remotes/origin/NewBranch1
+	  remotes/origin/master
+4. the ihavenoidea file turns up in the directory (as expected).
+
+
+* master
+remotes/origin/HEAD -> origin/master
+remotes/origin/NewBranch1
+remotes/origin/master
+
