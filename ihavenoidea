@@ -28,6 +28,7 @@ Switched to a new branch 'NewBranch1'
 
 == Maybe I start all over again ==
 
+== getting the NewBranch1 branch out ==
 1. Remove all the previous working directories - 
 2. use 
     git clone https://github.com/LesleyB/Testrepo.git 
@@ -44,8 +45,26 @@ Switched to a new branch 'NewBranch1'
 4. the ihavenoidea file turns up in the directory (as expected).
 
 
-* master
-remotes/origin/HEAD -> origin/master
-remotes/origin/NewBranch1
-remotes/origin/master
+== Just getting the repo out ==
+
+1. Do git clone  https://github.com/LesleyB/Testrepo.git
+   Cloning into 'Testrepo'...
+   remote: Counting objects: 21, done.
+   remote: Compressing objects: 100% (9/9), done.
+   remote: Total 21 (delta 2), reused 0 (delta 0)
+   Unpacking objects: 100% (21/21), done.
+   Checking connectivity... done.
+
+2. cd Testrepo/
+   ls -l
+   total 8
+   -rw-rw-r-- 1 lesley lesley 154 Jan 23 23:29 newfile
+   -rw-rw-r-- 1 lesley lesley  37 Jan 23 23:29 README.md
+   Note no ihavenoidea file.
+
+3. git branch -a
+  * master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/NewBranch1
+  remotes/origin/master
 
